@@ -1,0 +1,21 @@
+{
+  "exp_dir": "model_dir/tbsf_512_sam",
+  "batch_size": 64,
+  "category": "tb512",
+  "debug": false,
+  "dim": [512, 512, 6016],
+  "deeplab_res": 512,
+  "number_class": 2,
+  "testing_data_number_class": 2,
+  "max_training": 60,
+  "stylegan_ver": "2",
+  "annotation_data_from_w": false,
+  "annotation_mask_path": "./dataset_release/annotation/training_data/tbsf512sam_processed",
+  "testing_path": "./dataset_release/annotation/testing_data/tbsf512_2_class",
+  "average_latent": "./dataset_release/training_latent/tbsf512sam_2/avg_latent_stylegan1.npy",
+  "annotation_image_latent_path": "./dataset_release/training_latent/tbsf512sam_2/latent_stylegan1.npy",
+  "stylegan_checkpoint": "./checkpoints/stylegan_pretrain/tb-shuffle-train-stylegan2-004400.pt",
+  "model_num": 10,
+  "upsample_mode":"bilinear"
+}
+

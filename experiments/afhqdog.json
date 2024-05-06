@@ -1,0 +1,21 @@
+{
+  "exp_dir": "model_dir/cam16_256",
+  "batch_size": 64,
+  "category": "cam16",
+  "debug": false,
+  "dim": [256, 256, 4992],
+  "deeplab_res": 256,
+  "number_class": 2,
+  "testing_data_number_class": 2,
+  "max_training": 20,
+  "stylegan_ver": "1",
+  "annotation_data_from_w": false,
+  "annotation_mask_path": "./dataset_release/annotation/training_data/cam16_processed",
+  "testing_path": "./dataset_release/annotation/testing_data/cam16_2_class",
+  "average_latent": "./dataset_release/training_latent/cam16_2/avg_latent_stylegan1.npy",
+  "annotation_image_latent_path": "./dataset_release/training_latent/cam16_2/latent_stylegan1.npy",
+  "stylegan_checkpoint": "./checkpoints/stylegan_pretrain/cam16_256x256_sg.pt",
+  "model_num": 10,
+  "upsample_mode":"bilinear"
+}
+
