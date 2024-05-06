@@ -26,3 +26,6 @@ python train_interpreter2.py --generate_data True --exp <TRAINING CONFIG FILE> -
 ```
 
 Example: `--exp experiments/tb512.json --resume ./model_dir/tbsf_512 --num_sample 20`
+
+## Acknowledgement
+The part of the code is derived from DatasetGAN: Efficient Labeled Data Factory with Minimal Human Effort   <a href='https://github.com/nv-tlabs/datasetGAN_release'><img src='https://img.shields.io/badge/Project-Page-Green'></a> by Yuxuan Zhang et al. from NVIDIA.
