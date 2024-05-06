@@ -18,7 +18,9 @@ python train_interpreter2.py --exp <TRAINING CONFIG FILE>
 Example: `--exp experiments/tb512.json`
 
 3. Generate segmented data using your DatasetGAN:
-Download trained [checkpoints](https://wakehealth-my.sharepoint.com/:u:/r/personal/mgurcan_wakehealth_edu/Documents/cialab/datasetgan-tumor-bud/tbsf_512.zip?csf=1&web=1&e=nos8Ss).
+   
+Download trained [checkpoints](https://wakehealth-my.sharepoint.com/:u:/r/personal/mgurcan_wakehealth_edu/Documents/cialab/datasetgan-tumor-bud/tbsf_512.zip?csf=1&web=1&e=nos8Ss). Save them into `./model_dir/tbsf_512`
+
 ```shell
 python train_interpreter2.py --generate_data True --exp <TRAINING CONFIG FILE> --resume <MODEL WEIGHT DIR> --num_sample <# OF IMAGES>
 ```
